@@ -391,3 +391,35 @@ nav .fas{
   font-size: 14px;
 }
 }
+
+/* .expertise{
+  padding: 30px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.logos{
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.logos:hover{
+  transition: ease-in;
+} */
+
+.expertise {
+  padding: 30px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.logos {
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-around;
+  transition: transform 0.3s; /* Add transition */
+}
+
+.logos:hover {
+  cursor: pointer;
+  transform: scale(1.05); /* Scale up on hover */
+}
